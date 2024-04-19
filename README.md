@@ -43,7 +43,7 @@ In your rnaseq directory, click New File. Name the file 'run_fetchngs.sb;. Write
 #!/bin/bash
 
 #SBATCH --job-name=$jobname_fetchngs
-#SBATCH --time=24:00:00
+#SBATCH --time=4:00:00
 #SBATCH --mem=24GB
 #SBATCH --cpus-per-task=8
 
