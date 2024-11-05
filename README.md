@@ -50,7 +50,7 @@ In your rnaseq directory, click New File. Name the file 'run_fetchngs.sb;. Write
 cd /mnt/home/$username/rnaseq
 module load Nextflow/23.10.0
 
-nextflow pull nf-core/rnaseq
+nextflow pull nf-core/fetchngs
 nextflow run nf-core/fetchngs -r 1.12.0 --input ./ids.csv  -profile singularity --outdir ./fastq_files --nf_core_pipeline rnaseq --download_method sratools -work-dir /mnt/scratch/$username/fetchngs -c ./nextflow.config
 ```
 Save the run_fetchngs.sb file and return to your directory.
